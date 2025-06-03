@@ -1,0 +1,87 @@
+.transferi-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.transferi-naslov {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #dadde0;
+}
+
+.transferi-sadrzaj {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    to right,
+    yellow 0%,
+
+    yellow 40%,
+    #13eb0f 75%,
+    #13eb0f 100%
+  );
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.rumours {
+  flex: 1;
+  min-width: 300px;
+}
+
+.gotovi-transferi {
+  flex: 1;
+  min-width: 300px;
+}
+
+.rumours h3,
+.gotovi-transferi h3 {
+  margin-bottom: 15px;
+  color: #080909;
+  border-bottom: 2px solid #0a3417;
+  padding-bottom: 5px;
+}
+
+.transfer-kartica {
+  background-color: transparent;
+  border: 1px solid #0a3417;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.transfer-kartica:hover {
+  transform: scale(1.02);
+  background-color: #eefcff;
+}
+
+.transfer-kartica p {
+  margin: 5px 0;
+}
+.slika-transfera {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.kartica-lijeva {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.kartica-desna {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: right;
+  flex-direction: row-reverse;
+}

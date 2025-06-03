@@ -1,0 +1,85 @@
+.pocetna-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1f6e25;
+  
+}
+.pocetna-container:hover{
+  transform: scale(1.01)
+}
+.najvaznija-vijest {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.najvhead {
+  font-size: 50px;
+}
+
+.najvaznija-vijest img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.najvaznija-vijest .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.najvaznija-vijest h2 {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+
+.najvaznija-vijest p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.grid-vijesti {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.vijest-grid-item {
+  background-color: #0a3417;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.vijest-grid-item:hover {
+  transform: translateY(-4px);
+}
+
+.vijest-grid-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.vijest-grid-item h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.vijest-grid-item p {
+  font-size: 14px;
+  margin: 0 10px 10px 10px;
+}

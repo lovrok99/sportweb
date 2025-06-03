@@ -1,0 +1,48 @@
+body {
+  background-color: #1f6e25;
+}
+.utakmice-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #1f6e25;
+}
+
+.utakmice-naslov {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e5e9ee;
+}
+
+.utakmice-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.utakmica-kartica {
+  background-color: #0a3417;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 240px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.utakmica-kartica:hover {
+  transform: scale(1.03);
+  background-color: #3ea753;
+}
+
+.utakmica-kartica h3 {
+  margin: 0 0 10px;
+  color: #f9fafb;
+}
+
+.utakmica-kartica p {
+  margin: 6px 0;
+}

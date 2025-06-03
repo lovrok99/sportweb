@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Vijesti from "./components/Vijesti";
+import Utakmice from "./components/Utakmice";
+import Transferi from "./components/Transferi";
+import Clanak from "./components/Clanak";
+import Hnl from "./components/Hnl";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="font-sans">
+        <Navbar />
+        <div className="p-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/vijesti" element={<Vijesti />} />
+            <Route path="/utakmice" element={<Utakmice />} />
+            <Route path="/transferi" element={<Transferi />} />
+            <Route path="/hnl" element={<Hnl />} />
+            <Route path="/vijesti/:id" element={<Clanak />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

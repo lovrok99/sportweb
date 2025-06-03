@@ -1,0 +1,43 @@
+.clanak-container {
+  background-color: #1f6e25;
+  height: 100%;
+  color: white;
+}
+
+.clanak-naslov {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  text-align: center;
+  background-color: #0a3417;
+}
+
+.clanak-slika {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 450px;
+  object-fit: cover;
+  object-position:top;
+  padding-right: 50px;
+  padding-left: 50px;
+
+  margin-bottom: 20px;
+}
+
+.clanak-tekst {
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+  text-align: justify;
+  padding: 0 50px;
+}
+
+.greska-vijest {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}

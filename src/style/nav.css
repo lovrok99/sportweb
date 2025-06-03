@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #1f6e25;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 4px solid #0a3417;
+  gap: 30px;
+}
+
+.naslovna {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.naslovna-bar {
+  color: rgb(228, 237, 226);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease-in-out;
+}
+
+.naslovna-bar:hover {
+  color: #0a3417;
+}
