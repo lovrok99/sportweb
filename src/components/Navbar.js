@@ -9,7 +9,7 @@ function Navbar() {
       </Link>
 
       <Link to="/vijesti" className="naslovna-bar">
-        VIJESTI
+        NOGOMET
       </Link>
       <Link to="/utakmice" className="naslovna-bar">
         UTAKMICE

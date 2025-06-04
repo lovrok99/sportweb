@@ -56,10 +56,11 @@
 
 .statistika-tablica tbody tr:nth-child(odd) {
   background-color: #006400;
-  /color: white;
+
+  color: white;
 }
 
 .statistika-tablica tbody tr:nth-child(even) {
   background-color: #90ee90;
-  /color: black;
+  color: black;
 }

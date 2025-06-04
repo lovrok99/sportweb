@@ -32,6 +32,25 @@ const vijesti = [
     tekst: "Reprezentacija odradila prvi trening pred Europsko prvenstvo.",
     slika: "/images/repka.jpg",
   },
+  {
+    id: "2",
+    naslov:
+      "Dinamo gubi velikog talenta tek što je stigao? Gigant se sprema platiti otkupnu klauzulu",
+    tekst: "Mladi Portugalac potpisao ugovor.",
+    slika: "/homeimg/dinamogubi.jpg",
+  },{
+    id: "6",
+    naslov:
+      "Show u finalu SHMNL-a. Makarani napustili teren pa se vratili i izgubili od Osijeka",
+    tekst: "Luda zavrsnica.",
+    slika: "/homeimg/futsal.jpg",
+  },{
+    id: "8",
+    naslov:
+      "Dembele ukrao šou na Roland Garrosu: Jednim potezom digao 10 tisuća ljudi na noge",
+    tekst: "Atmosfera kakvu rijetko viđamo!",
+    slika: "/homeimg/tenis.jpg",
+  },
 ];
 
 function Vijesti() {

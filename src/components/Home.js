@@ -54,6 +54,22 @@ const vijesti = [
       "Dembele ukrao šou na Roland Garrosu: Jednim potezom digao 10 tisuća ljudi na noge",
     tekst: "Atmosfera kakvu rijetko viđamo!",
     slika: "/homeimg/tenis.jpg",
+  },{
+    id: "9",
+    naslov: "Izasli detalji prepirke Perisica i Gatussa",
+    tekst: "Tenzije su se mogle predvidjeti.",
+    slika: "/images/ivan-perisic.jpg",
+  }, {
+    id: "10",
+    naslov: "Neredi u Parizu",
+    tekst: "Puno ozljedenih",
+    slika: "/images/neredi-u-parizu.jpg",
+  },
+  {
+    id: "11",
+    naslov: "Mbappe ima za cime zaliti nakon odlaska iz PSG",
+    tekst: "Karma nakon nepune godine",
+    slika: "/images/63091411-kylian-mbappe-i-luis-enrique.jpg",
   },
 ];
 
