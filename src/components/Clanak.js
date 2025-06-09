@@ -136,9 +136,10 @@ function Clanak() {
 
   return (
     <div className="clanak-container">
-      <h2 className="clanak-naslov">{podatak.naslov}</h2>
+      <h1 className="clanak-naslov">{podatak.naslov}</h1>
+      <h3 className="clanak-tekst">{podatak.tekst}</h3>
       <img src={podatak.slika} alt={podatak.naslov} className="clanak-slika" />
-      <p className="clanak-tekst">{podatak.tekst}</p>
+
       <br />
       <br />
       <p className="clanak-tekst">{podatak.tekst2}</p>
